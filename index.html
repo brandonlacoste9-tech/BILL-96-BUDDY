@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bill 96 Buddy — Quebec French Language Compliance Guide</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <h1>Bill&nbsp;96 Buddy</h1>
+      <p class="tagline">Your interactive guide to Quebec's French language compliance requirements</p>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- Overview Section -->
+    <section class="card overview-card" id="overview">
+      <h2>What is Bill 96?</h2>
+      <p>
+        <strong>Bill 96</strong> (officially <em>"An Act respecting French, the official and common language of
+        Québec"</em>) was adopted by the National Assembly in May 2022. After passage, it became
+        <strong>Law 14</strong> and amends the <strong>Charter of the French Language (Bill 101)</strong>.
+        It is being brought into force in stages.
+      </p>
+      <p>
+        Its stated purpose is to affirm that French is the <strong>sole official language</strong> of Quebec
+        and the <strong>common language</strong> of the Quebec nation.
+      </p>
+
+      <div class="key-dates">
+        <h3>Key Dates</h3>
+        <ul>
+          <li><span class="date-badge">May 2022</span> Bill 96 adopted by the National Assembly</li>
+          <li><span class="date-badge">June 1, 2025</span> New regulations for trademarks &amp; product packaging take effect</li>
+          <li><span class="date-badge">June 1, 2027</span> Grace period ends for non-compliant products manufactured before June 1, 2025</li>
+          <li><span class="date-badge">No Grace Period</span> Public signage — must comply immediately</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Role Selector -->
+    <section class="card role-card" id="role-selector">
+      <h2>Find Your Obligations</h2>
+      <p>Select your role to see the specific Bill 96 requirements that apply to you:</p>
+      <div class="role-buttons" role="group" aria-label="Select your role">
+        <button class="role-btn" data-role="employer" aria-pressed="false">Employer</button>
+        <button class="role-btn" data-role="employee" aria-pressed="false">Employee</button>
+        <button class="role-btn" data-role="business" aria-pressed="false">Business Owner</button>
+        <button class="role-btn" data-role="student" aria-pressed="false">Student</button>
+        <button class="role-btn" data-role="citizen" aria-pressed="false">Citizen</button>
+      </div>
+    </section>
+
+    <!-- Role-specific guidance (hidden until role selected) -->
+    <section class="card guidance-card" id="guidance" aria-live="polite" hidden>
+      <div id="guidance-content"></div>
+    </section>
+
+    <!-- Full Overview Sections -->
+    <section class="card areas-card" id="key-areas">
+      <h2>Key Areas of Bill 96</h2>
+
+      <details class="area-detail">
+        <summary><span class="area-icon">🏛️</span> Government and Courts</summary>
+        <ul>
+          <li>Stronger obligation for the civil administration to use French in all internal and external communications.</li>
+          <li>Tighter limits on using English or bilingual documents in dealings with the state.</li>
+          <li>Exceptions apply for: Indigenous peoples, services outside Quebec, tourism, and recent immigrants for a short adjustment period.</li>
+        </ul>
+      </details>
+
+      <details class="area-detail">
+        <summary><span class="area-icon">💼</span> Language of Work</summary>
+        <ul>
+          <li>Expands employees' legal right to work in French.</li>
+          <li>Requires employers to avoid unnecessary demands for knowledge of another language in job postings and conditions of employment.</li>
+          <li>Extends application of the French Charter to smaller businesses — threshold lowered from <strong>50+ employees</strong> to <strong>25+ employees</strong>.</li>
+          <li>Employees may file complaints if their right to work in French is infringed.</li>
+        </ul>
+      </details>
+
+      <details class="area-detail">
+        <summary><span class="area-icon">🏪</span> Business and Commerce</summary>
+        <ul>
+          <li>More stringent rules on French in commercial signage, advertising, contracts, and product labelling.</li>
+          <li>French must be clearly dominant on signs and marketing materials.</li>
+          <li>New regulations for trademarks and product packaging effective <strong>June 1, 2025</strong>.</li>
+          <li>Grace period until <strong>June 1, 2027</strong> for non-compliant products manufactured before June 1, 2025.</li>
+          <li><strong>No grace period</strong> for public signage — immediate compliance required.</li>
+          <li>Contracts with the Quebec government and its agencies must be in French.</li>
+        </ul>
+      </details>
+
+      <details class="area-detail">
+        <summary><span class="area-icon">🎓</span> Education</summary>
+        <ul>
+          <li>Imposes caps and quotas on English-language CEGEP enrollment.</li>
+          <li>Adds French-language course requirements even for many students attending English-language institutions.</li>
+          <li>Students from outside Quebec attending English CEGEPs may face additional language requirements.</li>
+        </ul>
+      </details>
+
+      <details class="area-detail">
+        <summary><span class="area-icon">⚖️</span> Enforcement and Sanctions</summary>
+        <ul>
+          <li>Strengthened powers for the <strong>Office québécois de la langue française (OQLF)</strong> to investigate, issue orders, and enforce compliance.</li>
+          <li>Fines for companies: recurring non-compliance can reach up to <strong>tens of thousands of dollars per day</strong>.</li>
+          <li>Individual fines scale up for repeat violations.</li>
+          <li>The OQLF can issue compliance orders without going to court first.</li>
+        </ul>
+      </details>
+    </section>
+
+    <!-- Disclaimer -->
+    <section class="card disclaimer-card" id="disclaimer">
+      <h2>⚠️ Disclaimer</h2>
+      <p>
+        This tool provides general educational information about Bill 96 (Law 14) for awareness purposes only.
+        It does <strong>not</strong> constitute legal advice. Quebec's language law is complex and evolving —
+        consult a qualified legal professional or the
+        <a href="https://www.oqlf.gouv.qc.ca/" target="_blank" rel="noopener noreferrer">Office québécois de la langue française (OQLF)</a>
+        for authoritative guidance specific to your situation.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Bill 96 Buddy &mdash; Licensed under Apache 2.0 &mdash; Not legal advice</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

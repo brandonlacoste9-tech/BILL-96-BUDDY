@@ -1,0 +1,23 @@
+{
+  "name": "bill-96-buddy",
+  "version": "1.0.0",
+  "description": "An interactive compliance guide for Quebec's Bill 96 (Law 14) language requirements",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx serve .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "keywords": [
+    "bill-96",
+    "quebec",
+    "french-language",
+    "compliance",
+    "law-14",
+    "charter-of-french-language"
+  ],
+  "author": "brandonlacoste9-tech",
+  "license": "Apache-2.0"
+}

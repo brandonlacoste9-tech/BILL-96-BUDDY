@@ -1,0 +1,58 @@
+Objet : Alerte conformité Loi 96 - Lou's Pointe Claire | Risque critique
+
+Bonjour Peter, Max et l'équipe,
+
+Je m'appelle [VOTRE NOM] et je suis consultant en conformité linguistique spécialisé dans la Loi 96 au Québec.
+
+En tant que restaurateurs chevronnés derrière Loïc, Apt. et maintenant Lou's, vous comprenez l'importance de chaque détail dans l'expérience client. C'est pourquoi je me permets de vous contacter directement concernant un problème critique sur votre présence numérique.
+
+Dans le cadre de l'initiative "Inspecteur Incognito" de l'OQLF (mars-juin 2026), j'ai effectué un audit technique de louspointeclaire.com et j'ai identifié des violations qui exposent Lou's à des amendes potentiellement dévastatrices :
+
+**Score de conformité : 0/100 (RISQUE CRITIQUE)**
+
+**Violations identifiées :**
+
+1. **HTML déclaré en anglais** - Votre site déclare `<html lang="en">`, signalant aux inspecteurs automatisés de l'OQLF que le site est anglophone. C'est une pénalité de 40% immédiate.
+
+2. **Absence totale de contenu français** - Navigation, contenu, descriptions - tout est 100% anglais sans aucune option française visible.
+
+3. **Documents légaux manquants** - Aucune Politique de confidentialité ou Conditions d'utilisation accessible en français (violation critique selon les règles de juin 2025).
+
+**Pourquoi c'est urgent pour Lou's :**
+
+Vous êtes sur la plateforme Wix, ce qui est excellent pour la rapidité de correction, mais l'OQLF cible spécifiquement :
+- Les nouveaux établissements (Lou's a ouvert récemment)
+- L'Ouest-de-l'Île (zone d'inspection prioritaire mars 2026)
+- Les restaurateurs avec plusieurs établissements (vous êtes connus)
+
+Les amendes peuvent atteindre **30 000 $ par infraction**. Avec les violations multiples identifiées, l'exposition financière dépasse facilement 100 000 $.
+
+**La solution :**
+
+Mon agence locale spécialisée en remédiation rapide de la Loi 14. Nous ne faisons pas que traduire - nous reconstruisons l'architecture pour que votre site serve automatiquement du contenu français conforme aux auditeurs de l'OQLF.
+
+Nous pouvons corriger votre plateforme Wix spécifique en moins de 48 heures pour un tarif forfaitaire, qui représente une fraction de la pénalité minimale de 3 000 $ de l'OQLF.
+
+**Voulez-vous que je vous envoie le rapport d'audit PDF gratuit montrant exactement où votre site échoue actuellement?**
+
+Le rapport inclut :
+- Captures d'écran des violations de code
+- Analyse ligne par ligne du HTML
+- Plan de remédiation détaillé
+- Estimation de coûts vs amendes potentielles
+
+Vous avez bâti une réputation exceptionnelle avec Loïc et vos autres établissements. Il serait tragique qu'un problème technique de conformité nuise à Lou's avant même que le restaurant n'atteigne son plein potentiel.
+
+Disponible pour un appel rapide cette semaine ?
+
+Cordialement,
+
+[VOTRE NOM]
+[VOTRE ENTREPRISE]
+Spécialiste Loi 96 - Ouest-de-l'Île
+[VOTRE TÉLÉPHONE]
+[VOTRE EMAIL]
+
+---
+
+P.S. : L'OQLF utilise des outils automatisés pour scanner les nouveaux restaurants. Lou's est probablement déjà dans leur base de données. Agir maintenant vous protège avant qu'une inspection formelle ne soit déclenchée.

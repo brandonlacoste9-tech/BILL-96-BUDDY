@@ -1,0 +1,28 @@
+[
+  {
+    "timestamp": "2026-03-09T08:25:04.833897",
+    "target": "Lou's Pointe-Claire",
+    "url": "https://www.louspointeclaire.com/",
+    "compliance_score": 0,
+    "risk_level": "CRITICAL",
+    "primary_violation": "HTML lang='en'",
+    "emails_prepared": [
+      {
+        "type": "owner",
+        "subject": "Alerte conformit\u00e9 Loi 96 - Lou's Pointe Claire | Risque critique",
+        "file": "louspointeclaire-pitch-owner.txt"
+      },
+      {
+        "type": "gm",
+        "subject": "Avis de conformit\u00e9 Loi 96 - Lou's Pointe Claire | Action requise",
+        "file": "louspointeclaire-pitch-general.txt"
+      }
+    ],
+    "contact_info": {
+      "gm_email": "gm@louspointeclaire.com",
+      "phone": "438-596-5517"
+    },
+    "status": "READY_TO_SEND",
+    "window": "Monday 8:20 AM - Golden B2B window"
+  }
+]

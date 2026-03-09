@@ -1,0 +1,21 @@
+{
+  "url": "https://www.gardemanger.ca",
+  "business_name": "gardemanger",
+  "audit_date": "2026-03-09",
+  "html_lang": null,
+  "html_lang_compliant": false,
+  "html_lang_score": 0,
+  "visual_predominance": null,
+  "visual_predominance_compliant": false,
+  "visual_predominance_score": 0,
+  "legal_docs_french": false,
+  "legal_docs_violation": null,
+  "legal_docs_score": 0,
+  "trademark_issues": [],
+  "trademark_score": 0,
+  "compliance_score": 0,
+  "risk_level": "CRITICAL",
+  "violations": [
+    "Audit error: Page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://www.gardemanger.ca/\", waiting until \"networkidle\"\n"
+  ]
+}

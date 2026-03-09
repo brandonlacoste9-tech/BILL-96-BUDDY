@@ -1,0 +1,24 @@
+{
+  "url": "https://www.gibbys.com/en",
+  "business_name": "gibbys",
+  "audit_date": "2026-03-09",
+  "html_lang": "en",
+  "html_lang_compliant": false,
+  "html_lang_score": 0,
+  "visual_predominance": "English predominant or French absent",
+  "visual_predominance_compliant": false,
+  "visual_predominance_score": 0,
+  "legal_docs_french": false,
+  "legal_docs_violation": "Legal documents found but French availability unclear",
+  "legal_docs_score": 10,
+  "trademark_issues": [
+    "gibbys - No French generic descriptor in title"
+  ],
+  "trademark_score": 0,
+  "compliance_score": 10,
+  "risk_level": "CRITICAL",
+  "violations": [
+    "HTML lang attribute set to English",
+    "English content more prominent than French"
+  ]
+}

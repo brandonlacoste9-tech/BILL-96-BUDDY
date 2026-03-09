@@ -1,0 +1,113 @@
+Objet : Alerte conformité Loi 96 - 40 Westt Steakhouse | Risque élevé
+
+Bonjour Stefano,
+
+Je m'appelle [VOTRE NOM] et je suis consultant en conformité linguistique spécialisé dans la Loi 96 au Québec.
+
+En tant que propriétaire de l'un des restaurants les plus prestigieux de l'Ouest-de-l'Île (23 000+ visiteurs web par an), vous savez mieux que quiconque l'importance de maintenir l'excellence dans tous les aspects de votre établissement. C'est pourquoi je me permets de vous contacter directement concernant votre présence numérique.
+
+Dans le cadre de l'initiative "Inspecteur Incognito" de l'OQLF (mars-juin 2026), j'ai effectué un audit de votre présence en ligne et j'ai identifié une violation critique qui pourrait exposer 40 Westt à des amendes importantes :
+
+**Violation principale : Prédominance de l'anglais**
+
+Votre page sur RestaurantMontreal.ca dirige par défaut vers la version anglaise (/en/), même si une version française existe (/fr/). Selon les règles de "prédominance marquée" entrées en vigueur en juin 2025, le français doit être la langue par défaut et la plus visible - pas une option secondaire.
+
+**Autres éléments préoccupants :**
+
+1. **Aucune redirection automatique** - Les visiteurs québécois ne sont pas automatiquement dirigés vers la version française
+2. **Structure d'URL problématique** - L'URL par défaut se termine par "/en/", signalant l'anglais comme langue principale
+3. **Documents légaux absents** - Aucune Politique de confidentialité ou Conditions d'utilisation visible en français
+
+**Pourquoi c'est urgent pour 40 Westt :**
+
+- Votre visibilité web (23 309 visiteurs/an) fait de vous une cible prioritaire
+- Votre positionnement haut de gamme attire l'attention des inspecteurs
+- L'Ouest-de-l'Île est sous surveillance active en mars 2026
+- Les amendes peuvent atteindre 30 000 $ par infraction
+
+**La bonne nouvelle :**
+
+Vous avez déjà une excellente version française! Le problème est purement technique - la configuration de la plateforme RestaurantMontreal.ca. Cela peut être corrigé en 24-48 heures.
+
+**Ce que je propose :**
+
+✓ Consultation gratuite de 15 minutes cette semaine
+✓ Audit complet de TOUTES vos présences numériques (site web propre, réseaux sociaux, plateformes tierces)
+✓ Plan d'action immédiat pour corriger la configuration (1 500 $ - 3 000 $)
+✓ Protection avant la prochaine vague d'inspections
+
+**Point important :** Même si RestaurantMontreal.ca gère votre page, la Loi 96 vous rend responsable de TOUTE votre présence numérique, y compris les plateformes tierces. Les inspecteurs ne font pas de distinction.
+
+40 Westt est clairement un établissement d'exception que vous et votre famille (Elizabeth, Constantinos et Maria) avez bâti avec passion - vos avis clients le confirment. Il serait tragique qu'une simple configuration technique entraîne des amendes de dizaines de milliers de dollars ou nuise à la réputation que vous avez construite.
+
+Êtes-vous disponible pour un appel rapide cette semaine ? Je peux vous montrer exactement ce que les inspecteurs voient et comment le corriger rapidement.
+
+Cordialement,
+
+[VOTRE NOM]
+[VOTRE ENTREPRISE]
+[VOTRE TÉLÉPHONE]
+[VOTRE EMAIL]
+
+---
+
+P.S. : Avec 23 000+ visiteurs web par an, votre présence numérique est très visible. Les inspecteurs de l'OQLF utilisent des outils automatisés pour identifier les sites à fort trafic avec des problèmes de conformité. Vous êtes probablement déjà sur leur radar.
+
+---
+
+**ENGLISH VERSION (for internal reference):**
+
+Subject: Bill 96 Compliance Alert - 40 Westt Steakhouse | High Risk
+
+Hello,
+
+My name is [YOUR NAME] and I'm a language compliance consultant specializing in Quebec's Bill 96.
+
+As one of the most prestigious restaurants in the West Island (23,000+ web visitors per year), 40 Westt Steakhouse is exactly the type of establishment the OQLF is targeting in its "Undercover Inspector" initiative (March-June 2026).
+
+I conducted an audit of your digital presence and identified a critical violation that could expose you to significant fines:
+
+**Primary Violation: English Predominance**
+
+Your RestaurantMontreal.ca page defaults to the English version (/en/), even though a French version exists (/fr/). Under the "marked predominance" rules that came into effect in June 2025, French must be the default and most visible language - not a secondary option.
+
+**Other concerning elements:**
+
+1. **No automatic redirect** - Quebec visitors are not automatically directed to the French version
+2. **Problematic URL structure** - The default URL ends with "/en/", signaling English as the primary language
+3. **Missing legal documents** - No Privacy Policy or Terms of Service visible in French
+
+**Why this is urgent for 40 Westt:**
+
+- Your web visibility (23,309 visitors/year) makes you a priority target
+- Your high-end positioning attracts inspector attention
+- The West Island is under active surveillance in March 2026
+- Fines can reach $30,000 per violation
+
+**The good news:**
+
+You already have an excellent French version! The problem is purely technical - the RestaurantMontreal.ca platform configuration. This can be fixed in 24-48 hours.
+
+**What I propose:**
+
+✓ Free 15-minute consultation this week
+✓ Complete audit of ALL your digital presences (own website, social media, third-party platforms)
+✓ Immediate action plan to fix the configuration ($1,500-$3,000)
+✓ Protection before the next wave of inspections
+
+**Important point:** Even though RestaurantMontreal.ca manages your page, Bill 96 makes you responsible for ALL your digital presence, including third-party platforms. Inspectors make no distinction.
+
+40 Westt is clearly an exceptional establishment - your customer reviews confirm it. It would be tragic if a simple technical configuration led to tens of thousands of dollars in fines or damaged your reputation.
+
+Are you available for a quick call this week? I can show you exactly what inspectors see and how to fix it quickly.
+
+Best regards,
+
+[YOUR NAME]
+[YOUR COMPANY]
+[YOUR PHONE]
+[YOUR EMAIL]
+
+---
+
+P.S.: With 23,000+ web visitors per year, your digital presence is highly visible. OQLF inspectors use automated tools to identify high-traffic sites with compliance issues. You're probably already on their radar.

@@ -1,0 +1,29 @@
+Subject: Bill 96 Compliance Review for FoodNFashion.TV
+
+Bonjour / Hello,
+
+I recently reviewed your website featuring Montreal restaurants and wanted to reach out regarding Quebec's Bill 96 language requirements.
+
+As a platform covering Quebec businesses and restaurants, I noticed several areas that need attention for compliance:
+
+• Your website's HTML language is set to English (lang="en-CA"), which should be French or bilingual for sites covering Quebec businesses
+• All content appears to be in English only, with no French language option available
+• As a directory/blog covering Montreal restaurants, Bill 96 requires that French content be at least as prominent as English
+
+This is particularly important for platforms that feature Quebec businesses, as you're representing the Montreal restaurant scene to potential customers. Bill 96 applies not just to the restaurants themselves, but also to platforms that promote them.
+
+With enforcement increasing and potential fines reaching up to $30,000, it's important to ensure your digital presence meets the requirements.
+
+I specialize in helping media and directory platforms navigate Bill 96 compliance. I'd be happy to offer you a complimentary 15-minute consultation to discuss:
+
+✓ Adding French language support to your platform
+✓ Technical adjustments to support bilingual content
+✓ Ensuring compliance while maintaining your brand identity
+✓ A full compliance review of your digital presence
+
+Would you be available for a brief call this week? I'm here to help make compliance straightforward while you continue to showcase Montreal's amazing restaurant scene.
+
+Cordialement / Best regards,
+[Your Name]
+Quebec Language Law Compliance Consultant
+[Your Contact Information]

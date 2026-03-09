@@ -1,0 +1,72 @@
+{
+  "url": "https://www.louspointeclaire.com/",
+  "business_name": "Lou's Pointe Claire",
+  "audit_date": "2026-03-09",
+  "auditor": "Bill 96 Autonomous Compliance Firm",
+  
+  "html_lang": "en",
+  "html_lang_compliant": false,
+  "html_lang_score": 0,
+  
+  "visual_predominance": "100% English content - no French text visible anywhere on homepage. Navigation menu (Reserve, Menu, Wine, Merch, Contact) entirely in English. Main heading 'ABOUT US' in English. Body text 'A New American restaurant in the spirit of a classic diner' entirely in English. No French language toggle or alternative version detected.",
+  "visual_predominance_compliant": false,
+  "visual_predominance_score": 0,
+  
+  "legal_docs_french": false,
+  "legal_docs_violation": "No Terms of Service, Privacy Policy, or Legal Notice links found on homepage. This is a critical omission under Bill 96 requirements. Legal documents must be present and available in French.",
+  "legal_docs_score": 0,
+  
+  "trademark_issues": [
+    "Lou's Pointe Claire - English business name with no French generic descriptor (e.g., 'Restaurant' or 'Bistro')",
+    "Tagline 'A New American restaurant in the spirit of a classic diner' - no French equivalent or translation provided"
+  ],
+  "trademark_score": 0,
+  
+  "compliance_score": 0,
+  "risk_level": "CRITICAL",
+  
+  "violations": [
+    "HTML lang attribute explicitly set to 'en' (English) - 40% penalty",
+    "Zero French content on entire homepage - complete absence of French language",
+    "No French language toggle or alternative version available",
+    "Navigation menu entirely in English (Reserve, Menu, Wine, Merch, Contact)",
+    "All body content in English with no French translation",
+    "Legal documents (Terms of Service, Privacy Policy) not found or not accessible",
+    "Business name lacks French generic descriptor",
+    "No compliance with 'marked predominance' requirement introduced June 2025"
+  ],
+  
+  "detailed_findings": {
+    "homepage_language": "100% English",
+    "french_content_percentage": "0%",
+    "navigation_language": "English only",
+    "has_language_toggle": false,
+    "legal_pages_accessible": false,
+    "wix_platform": true,
+    "easy_fix_potential": "HIGH - Wix platform supports multilingual sites"
+  },
+  
+  "enforcement_context_2026": {
+    "inspection_season": "March-June 2026 Undercover Inspector Phase",
+    "location_risk": "HIGH - West Island/Pointe-Claire is a known OQLF target area",
+    "business_type_risk": "HIGH - Restaurant sector under active enforcement",
+    "fine_potential": "$30,000 per violation - multiple violations identified",
+    "urgency": "IMMEDIATE - Zero compliance with any Bill 96 requirements"
+  },
+  
+  "recommendations": [
+    "Immediately add French language version of entire site",
+    "Set HTML lang attribute to 'fr' or 'fr-CA' for French version",
+    "Ensure French text is at least as prominent as English",
+    "Add bilingual navigation with French appearing first or equally",
+    "Create and publish Terms of Service and Privacy Policy in French",
+    "Add French generic descriptor to business name (e.g., 'Lou's Restaurant Pointe-Claire')",
+    "Implement language toggle prominently on homepage",
+    "Consider professional translation service for accuracy"
+  ],
+  
+  "estimated_compliance_cost": "$2,000-$4,000 for professional translation and implementation",
+  "estimated_timeline": "48-72 hours with professional assistance",
+  
+  "priority": "URGENT - IMMEDIATE OUTREACH RECOMMENDED"
+}

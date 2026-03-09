@@ -1,0 +1,29 @@
+Subject: Bill 96 Compliance Review for MTL Blog
+
+Bonjour / Hello,
+
+I recently reviewed MTL Blog and wanted to reach out regarding Quebec's Bill 96 language requirements.
+
+As Montreal's leading lifestyle and culture publication, I noticed several areas that need attention for compliance:
+
+• Your website's HTML language is set to English (lang="en"), which should be French or bilingual for Quebec-based media
+• All content appears to be in English only, with no French language option available
+• As a major platform covering Montreal culture, restaurants, and lifestyle, Bill 96 requires that French content be at least as prominent as English
+
+This is particularly significant for MTL Blog given your position as a leading voice in Montreal's media landscape. Bill 96 applies to media platforms that serve Quebec audiences, and as a publication that covers Montreal extensively, compliance is essential.
+
+With enforcement increasing and potential fines reaching up to $30,000, it's important to ensure your digital presence meets the requirements. Additionally, offering French content could significantly expand your reach to Montreal's francophone community.
+
+I specialize in helping media platforms navigate Bill 96 compliance. I'd be happy to offer you a complimentary 15-minute consultation to discuss:
+
+✓ Strategies for adding French language support to your platform
+✓ Technical implementation for bilingual content management
+✓ Ensuring compliance while maintaining editorial efficiency
+✓ A full compliance review of your digital presence
+
+Would you be available for a brief call this week? I'm here to help make compliance straightforward while you continue to be Montreal's go-to source for local culture and lifestyle.
+
+Cordialement / Best regards,
+[Your Name]
+Quebec Language Law Compliance Consultant
+[Your Contact Information]

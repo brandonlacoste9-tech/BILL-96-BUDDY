@@ -1,0 +1,18 @@
+{
+  "url": "https://www.restomontreal.ca/resto/40-westt-steakhouse-ouest-de-lile-montreal/351/en/",
+  "audit_date": "2026-03-09",
+  "html_lang": "en-CA",
+  "html_lang_compliant": false,
+  "visual_predominance": "User is viewing English version - French version exists at /fr/ URL but English is default",
+  "visual_predominance_compliant": false,
+  "legal_docs_french": true,
+  "legal_docs_violation": "None - French version available",
+  "trademark_issues": ["40 Westt Steakhouse - English business name, unclear if French descriptor present"],
+  "compliance_score": 55,
+  "risk_level": "MODERATE",
+  "violations": [
+    "HTML lang attribute set to English (lang='en-CA') on default page",
+    "English appears to be the default language (URL ends in /en/)",
+    "French version exists but may not be prominently displayed or set as default"
+  ]
+}

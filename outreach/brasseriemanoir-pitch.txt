@@ -1,0 +1,30 @@
+Subject: Bill 96 Compliance Review for Brasserie Le Manoir
+
+Bonjour / Hello,
+
+I recently reviewed your restaurant's website and wanted to reach out regarding Quebec's Bill 96 language requirements.
+
+I noticed several areas that need attention for compliance:
+
+• Your website's HTML language is set to English (lang="en"), which should be French for Quebec businesses
+• While your menu includes excellent French content (and your business name is French - which is great!), the technical language declaration doesn't reflect this
+• Your website is hosted on a US-focused platform (.restaurants-us.com), which may not be optimized for Quebec language law compliance
+• Legal documents (Terms of Service, Privacy Policy) should be clearly available in French
+
+The positive news is that you're already providing strong bilingual content with French appearing first in many menu items, and your French business name shows your connection to the Quebec market. However, Bill 96 requires that French be the primary language from both a technical and visual standpoint.
+
+With enforcement increasing and potential fines reaching up to $30,000, it's important to ensure your digital presence fully meets the requirements.
+
+I specialize in helping restaurants navigate Bill 96 compliance. I'd be happy to offer you a complimentary 15-minute consultation to discuss:
+
+✓ Technical adjustments to make French your primary language
+✓ Platform recommendations that support Quebec compliance
+✓ Ensuring all legal requirements are met
+✓ A full compliance review of your digital presence
+
+Would you be available for a brief call this week? I'm here to help make compliance straightforward and protect your business.
+
+Cordialement / Best regards,
+[Your Name]
+Quebec Language Law Compliance Consultant
+[Your Contact Information]

@@ -1,0 +1,19 @@
+{
+  "url": "https://brasserielemanoirpointeclaire.restaurants-us.com/menu",
+  "audit_date": "2026-03-09",
+  "html_lang": "en",
+  "html_lang_compliant": false,
+  "visual_predominance": "Menu items show bilingual text (French/English) with French appearing first in most cases",
+  "visual_predominance_compliant": false,
+  "legal_docs_french": false,
+  "legal_docs_violation": "Unable to locate legal documents (Terms of Service, Privacy Policy) in initial inspection",
+  "trademark_issues": ["Brasserie Le Manoir - French name is good, but hosted on English-primary platform"],
+  "compliance_score": 40,
+  "risk_level": "HIGH",
+  "violations": [
+    "HTML lang attribute set to English (lang='en') instead of French",
+    "Website hosted on .restaurants-us.com domain (US-focused platform)",
+    "Despite having French business name and bilingual menu, technical language declaration is English",
+    "No clear French legal documentation visible"
+  ]
+}

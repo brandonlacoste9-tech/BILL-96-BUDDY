@@ -1,0 +1,19 @@
+{
+  "url": "https://www.foodnfashion.tv/home/best-downtown-montreal-restaurants",
+  "audit_date": "2026-03-09",
+  "html_lang": "en-CA",
+  "html_lang_compliant": false,
+  "visual_predominance": "Content appears to be English-only blog/directory listing Montreal restaurants",
+  "visual_predominance_compliant": false,
+  "legal_docs_french": false,
+  "legal_docs_violation": "Unable to locate French legal documents in initial inspection",
+  "trademark_issues": ["FoodNFashion.TV - English brand name without French descriptor"],
+  "compliance_score": 25,
+  "risk_level": "HIGH",
+  "violations": [
+    "HTML lang attribute set to English (lang='en-CA') instead of French",
+    "Content appears to be entirely in English despite covering Montreal restaurants",
+    "No evidence of French language option or content",
+    "Blog/directory site covering Quebec businesses should provide French content"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "High Risk Alert System",
+  "description": "Monitors generated compliance reports and triggers notifications for scores below 30",
+  "version": "1",
+  "when": {
+    "type": "fileCreated",
+    "patterns": [
+      "reports/*.json"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A new compliance report has been generated. Read the JSON file and check the compliance_score. If the score is below 50 (HIGH RISK): 1) Extract business name, URL, score, and violations. 2) Execute linkedin_hunter.py to find the General Manager or Owner using Google Dork: site:linkedin.com/in 'General Manager' OR 'Owner' OR 'Directeur' '{Business Name}' 'Montreal'. 3) If a decision maker is found, update the corresponding pitch email in outreach/ to start with 'Bonjour [Name],' and mention their title. 4) Display alert: '🚨 HIGH RISK LEAD: [Business Name] scored [Score]/100. Decision maker: [Name] ([Title]). Personalized email ready for review.'"
+  }
+}

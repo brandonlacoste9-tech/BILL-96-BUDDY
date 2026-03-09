@@ -1,0 +1,19 @@
+{
+  "url": "https://www.mtlblog.com/montreal-italian-restaurant-il-cortile",
+  "audit_date": "2026-03-09",
+  "html_lang": "en",
+  "html_lang_compliant": false,
+  "visual_predominance": "Content appears to be entirely in English with no French option visible",
+  "visual_predominance_compliant": false,
+  "legal_docs_french": false,
+  "legal_docs_violation": "Unable to locate French legal documents in initial inspection",
+  "trademark_issues": ["MTL Blog - English brand name without French descriptor", "Il Cortile - Italian restaurant name (acceptable as trademark)"],
+  "compliance_score": 20,
+  "risk_level": "HIGH",
+  "violations": [
+    "HTML lang attribute set to English (lang='en') instead of French",
+    "Content appears to be entirely in English despite being a Montreal-focused publication",
+    "No evidence of French language option or content",
+    "Major media platform covering Montreal should provide French content per Bill 96"
+  ]
+}

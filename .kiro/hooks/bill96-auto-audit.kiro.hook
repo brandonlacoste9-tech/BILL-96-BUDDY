@@ -1,0 +1,16 @@
+{
+  "enabled": true,
+  "name": "Bill 96 Auto Auditor",
+  "description": "Triggers compliance audit whenever a new URL is added to leads.txt",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "leads.txt"
+    ]
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "A new URL has been added to leads.txt. Please audit every new URL in this file using the Bill 96 Auditor steering rules. For each URL: 1) Use Playwright to navigate and inspect the page, 2) Check HTML lang attribute, visual predominance, legal documents, and trademarks, 3) Generate a report.json in the reports/ folder, 4) Generate a pitch.txt email draft in the outreach/ folder. Be thorough and document all violations found."
+  }
+}

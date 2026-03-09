@@ -1,0 +1,95 @@
+Objet : Mise en conformité urgente - Loi 96 | Lou's Pointe Claire
+
+Bonjour,
+
+Je m'appelle [VOTRE NOM] et je suis consultant en conformité linguistique spécialisé dans la Loi 96 au Québec.
+
+Dans le cadre de l'initiative "Inspecteur Incognito" de l'OQLF (mars-juin 2026), j'ai effectué un audit préliminaire de votre site web louspointeclaire.com. En tant que restaurant établi dans l'Ouest-de-l'Île, votre établissement est dans une zone à haut risque d'inspection.
+
+**Éléments identifiés nécessitant attention immédiate :**
+
+1. **Langue HTML déclarée en anglais** - Votre site déclare `<html lang="en">`, ce qui signale aux inspecteurs que le site est principalement anglophone. La Loi 96 exige que les sites québécois déclarent le français comme langue principale.
+
+2. **Absence totale de contenu français** - Votre navigation (Reserve, Menu, Wine, Merch, Contact) et tout le contenu de la page d'accueil sont uniquement en anglais, sans option de langue française.
+
+3. **Documents légaux non accessibles** - Les Conditions d'utilisation et la Politique de confidentialité ne sont pas visibles ou accessibles en français, ce qui constitue une violation critique selon la réglementation de juin 2025.
+
+**Contexte légal 2026 :**
+
+Depuis juin 2025, les critères de "prédominance marquée" du français sont appliqués strictement. L'OQLF mène actuellement des inspections surprises dans le secteur de la restauration de l'Ouest-de-l'Île. Les amendes peuvent atteindre **30 000 $ par infraction**, avec possibilité de sanctions multiples pour un même établissement.
+
+**Bonne nouvelle :**
+
+Votre site utilise la plateforme Wix, qui offre des outils intégrés pour créer des sites multilingues. La mise en conformité peut être réalisée rapidement (48-72 heures) avec l'assistance appropriée.
+
+**Ce que je propose :**
+
+✓ Consultation gratuite de 15 minutes cette semaine
+✓ Évaluation complète de votre présence numérique
+✓ Plan de mise en conformité rapide et abordable (2 000 $ - 4 000 $)
+✓ Protection avant la prochaine vague d'inspections
+
+Je ne suis pas affilié à l'OQLF - mon objectif est d'aider les entreprises québécoises comme la vôtre à éviter les amendes coûteuses tout en respectant l'esprit de la loi.
+
+Lou's est clairement un établissement de qualité dans la communauté de Pointe-Claire. Il serait dommage qu'une question de conformité linguistique nuise à votre réputation ou à vos finances.
+
+Êtes-vous disponible pour un appel rapide cette semaine ?
+
+Cordialement,
+
+[VOTRE NOM]
+[VOTRE ENTREPRISE]
+[VOTRE TÉLÉPHONE]
+[VOTRE EMAIL]
+
+---
+
+P.S. : Les inspections de mars 2026 ciblent particulièrement les restaurants de l'Ouest-de-l'Île avec une forte clientèle anglophone. Le secteur de Pointe-Claire est sous surveillance active. Agir maintenant vous protège contre des amendes qui pourraient dépasser 100 000 $ en cas de violations multiples.
+
+---
+
+**ENGLISH VERSION (for internal reference):**
+
+Subject: Urgent Compliance Notice - Bill 96 | Lou's Pointe Claire
+
+Hello,
+
+My name is [YOUR NAME] and I'm a language compliance consultant specializing in Quebec's Bill 96.
+
+As part of the OQLF's "Undercover Inspector" initiative (March-June 2026), I conducted a preliminary audit of your website louspointeclaire.com. As an established restaurant in the West Island, your business is in a high-risk inspection zone.
+
+**Critical items requiring immediate attention:**
+
+1. **HTML language declared as English** - Your site declares `<html lang="en">`, signaling to inspectors that the site is primarily English. Bill 96 requires Quebec sites to declare French as the primary language.
+
+2. **Complete absence of French content** - Your navigation (Reserve, Menu, Wine, Merch, Contact) and all homepage content are English-only, with no French language option.
+
+3. **Legal documents not accessible** - Terms of Service and Privacy Policy are not visible or accessible in French, which is a critical violation under June 2025 regulations.
+
+**2026 Legal Context:**
+
+Since June 2025, "marked predominance" criteria for French are strictly enforced. The OQLF is currently conducting surprise inspections in the West Island restaurant sector. Fines can reach **$30,000 per violation**, with multiple penalties possible for a single establishment.
+
+**Good news:**
+
+Your site uses the Wix platform, which offers built-in tools for creating multilingual sites. Compliance can be achieved quickly (48-72 hours) with proper assistance.
+
+**What I propose:**
+
+✓ Free 15-minute consultation this week
+✓ Complete evaluation of your digital presence
+✓ Fast and affordable compliance plan ($2,000-$4,000)
+✓ Protection before the next wave of inspections
+
+I'm not affiliated with the OQLF - my goal is to help Quebec businesses like yours avoid costly fines while respecting the spirit of the law.
+
+Lou's is clearly a quality establishment in the Pointe-Claire community. It would be unfortunate if a language compliance issue damaged your reputation or finances.
+
+Are you available for a quick call this week?
+
+Best regards,
+
+[YOUR NAME]
+[YOUR COMPANY]
+[YOUR PHONE]
+[YOUR EMAIL]

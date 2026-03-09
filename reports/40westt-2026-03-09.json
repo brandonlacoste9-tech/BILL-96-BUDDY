@@ -1,0 +1,91 @@
+{
+  "url": "https://www.restomontreal.ca/resto/40-westt-steakhouse-ouest-de-lile-montreal/351/en/",
+  "business_name": "40 Westt Steakhouse",
+  "audit_date": "2026-03-09",
+  "auditor": "Bill 96 Autonomous Compliance Firm",
+  
+  "html_lang": "en (English version URL)",
+  "html_lang_compliant": false,
+  "html_lang_score": 20,
+  "html_lang_notes": "Site has French version at /fr/ URL, but English version declares lang='en'. Under Bill 96 June 2025 rules, the French version must be the DEFAULT landing page, not a secondary option.",
+  
+  "visual_predominance": "CRITICAL VIOLATION: Default landing page is English (/en/). French version exists at /fr/ but requires manual navigation. Bill 96 'marked predominance' rule requires French to be the primary/default experience. English content is presented first and more prominently than French.",
+  "visual_predominance_compliant": false,
+  "visual_predominance_score": 10,
+  
+  "legal_docs_french": "unknown",
+  "legal_docs_violation": "No Terms of Service, Privacy Policy, or Legal Notice links found on either English or French versions of the listing page. This is a critical omission under Bill 96 requirements.",
+  "legal_docs_score": 0,
+  
+  "trademark_issues": [
+    "40 Westt Steakhouse - English business name lacks French generic descriptor on English page",
+    "URL structure defaults to /en/ (English) rather than /fr/ (French) as primary"
+  ],
+  "trademark_score": 5,
+  
+  "compliance_score": 35,
+  "risk_level": "HIGH",
+  
+  "violations": [
+    "CRITICAL: English version (/en/) appears to be the default landing page - violates 'marked predominance' requirement",
+    "French version exists but is secondary/hidden - not prominently displayed",
+    "No automatic redirect to French version for Quebec visitors",
+    "No visible language toggle on the page to switch between versions",
+    "Legal documents (Terms of Service, Privacy Policy) not found or not accessible",
+    "URL structure suggests English is primary language (defaults to /en/)",
+    "RestaurantMontreal.ca platform issue - may affect multiple restaurants"
+  ],
+  
+  "detailed_findings": {
+    "has_french_version": true,
+    "french_version_url": "https://www.restomontreal.ca/resto/40-westt-steakhouse-ouest-de-lile-montreal/351/fr/",
+    "french_version_quality": "Good - professional translation with proper French content",
+    "default_language": "English (VIOLATION)",
+    "language_toggle_visible": false,
+    "auto_redirect_quebec_visitors": false,
+    "platform": "RestaurantMontreal.ca (third-party listing)",
+    "own_website_check_needed": true,
+    "legal_pages_accessible": false
+  },
+  
+  "enforcement_context_2026": {
+    "inspection_season": "March-June 2026 Undercover Inspector Phase",
+    "location_risk": "CRITICAL - West Island/Pointe-Claire high-priority OQLF target zone",
+    "business_type_risk": "CRITICAL - High-end restaurant sector under active enforcement",
+    "visibility_risk": "CRITICAL - 23,309 visitors in last 12 months = high-profile target",
+    "fine_potential": "$30,000+ per violation - URL structure violation + lack of predominance",
+    "urgency": "HIGH - Prominent business with significant web traffic"
+  },
+  
+  "recommendations": [
+    "IMMEDIATE: Make French version (/fr/) the default landing page",
+    "Implement geo-detection to automatically redirect Quebec visitors to French version",
+    "Add prominent bilingual language toggle visible on all pages",
+    "Ensure French content appears first/above English in all contexts",
+    "Verify own restaurant website (40westt.com if exists) for compliance",
+    "Add Terms of Service and Privacy Policy in French to listing",
+    "Contact RestaurantMontreal.ca to fix platform-wide language default issue",
+    "Consider removing English-first URL structure entirely"
+  ],
+  
+  "mitigating_factors": [
+    "French version exists and is professionally translated",
+    "Content quality in French is good",
+    "Business clearly serves bilingual clientele"
+  ],
+  
+  "aggravating_factors": [
+    "High visibility (23K+ annual visitors)",
+    "Premium/luxury establishment = higher OQLF scrutiny",
+    "West Island location = active enforcement zone",
+    "URL structure explicitly prioritizes English",
+    "No automatic language detection for Quebec visitors"
+  ],
+  
+  "estimated_compliance_cost": "$1,500-$3,000 for platform configuration changes and legal document creation",
+  "estimated_timeline": "24-48 hours if working with RestaurantMontreal.ca platform",
+  
+  "priority": "HIGH - Immediate outreach recommended due to visibility and location",
+  
+  "additional_notes": "This is a third-party listing platform issue. 40 Westt may not have full control over the URL structure. However, under Bill 96, businesses are responsible for ALL their digital presence, including third-party listings. They should either fix the RestaurantMontreal.ca listing or ensure their own website (if they have one) is fully compliant and more prominent in search results."
+}

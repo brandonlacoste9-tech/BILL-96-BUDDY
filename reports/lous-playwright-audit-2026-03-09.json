@@ -1,0 +1,20 @@
+{
+  "url": "https://www.louspointeclaire.com/",
+  "audit_date": "2026-03-09",
+  "html_lang": "en",
+  "html_lang_compliant": false,
+  "visual_predominance": "Bilingual content detected - needs manual review for prominence",
+  "visual_predominance_compliant": false,
+  "legal_docs_french": false,
+  "legal_docs_violation": "No Terms of Service or Privacy Policy links visible",
+  "trademark_issues": [
+    "Lou's - English business name without French descriptor"
+  ],
+  "compliance_score": 0,
+  "risk_level": "HIGH",
+  "violations": [
+    "HTML lang attribute set to English (lang='en') instead of French",
+    "Legal documents not accessible in French",
+    "Business name 'Lou's' lacks French generic descriptor"
+  ]
+}

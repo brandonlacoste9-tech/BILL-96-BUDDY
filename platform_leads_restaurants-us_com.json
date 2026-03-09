@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Cafemilanowestisland",
+    "url": "https://cafemilanowestisland.restaurants-us.com/menu",
+    "platform": "restaurants-us.com",
+    "audit_date": "2026-03-09",
+    "html_lang": "unknown",
+    "html_lang_compliant": false,
+    "compliance_score": 0,
+    "risk_level": "HIGH",
+    "violations": [
+      "HTML lang attribute set to English (platform default)",
+      "Hosted on US-focused platform (.restaurants-us.com)",
+      "No clear French legal documentation visible"
+    ]
+  },
+  {
+    "name": "Brasserielemanoirpointeclaire",
+    "url": "https://brasserielemanoirpointeclaire.restaurants-us.com/menu",
+    "platform": "restaurants-us.com",
+    "audit_date": "2026-03-09",
+    "html_lang": "unknown",
+    "html_lang_compliant": false,
+    "compliance_score": 0,
+    "risk_level": "HIGH",
+    "violations": [
+      "HTML lang attribute set to English (platform default)",
+      "Hosted on US-focused platform (.restaurants-us.com)",
+      "No clear French legal documentation visible"
+    ]
+  }
+]

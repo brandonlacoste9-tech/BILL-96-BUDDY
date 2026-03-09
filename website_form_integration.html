@@ -1,0 +1,209 @@
+<!-- 
+  Zyeuté Québec - Audit Form Integration
+  Add this to your zyeutequebec.com website
+-->
+
+<div id="audit-form-container">
+  <h2>Obtenez votre audit technique gratuit</h2>
+  <p>Découvrez si votre site respecte la Loi 96 en 2 minutes.</p>
+  
+  <form id="audit-form">
+    <div class="form-group">
+      <label for="business-name">Nom de l'entreprise *</label>
+      <input 
+        type="text" 
+        id="business-name" 
+        name="business_name" 
+        required 
+        placeholder="Ex: Restaurant Le Manoir"
+      />
+    </div>
+    
+    <div class="form-group">
+      <label for="url">URL du site web *</label>
+      <input 
+        type="url" 
+        id="url" 
+        name="url" 
+        required 
+        placeholder="https://votre-site.com"
+      />
+    </div>
+    
+    <div class="form-group">
+      <label for="email">Courriel *</label>
+      <input 
+        type="email" 
+        id="email" 
+        name="email" 
+        required 
+        placeholder="votre@email.com"
+      />
+    </div>
+    
+    <div class="form-group">
+      <label for="phone">Téléphone (optionnel)</label>
+      <input 
+        type="tel" 
+        id="phone" 
+        name="phone" 
+        placeholder="514-XXX-XXXX"
+      />
+    </div>
+    
+    <button type="submit" id="submit-btn">
+      Analyser mon site gratuitement
+    </button>
+    
+    <div id="form-message" style="display: none;"></div>
+  </form>
+</div>
+
+<style>
+  #audit-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 0 3px rgba(0, 102, 204, 0.1);
+  }
+  
+  #submit-btn {
+    width: 100%;
+    padding: 1rem;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  #submit-btn:hover {
+    background: #0052a3;
+  }
+  
+  #submit-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
+  
+  #form-message {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  #form-message.success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  #form-message.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+</style>
+
+<script>
+  // IMPORTANT: Replace this URL with your deployed API endpoint
+  const API_ENDPOINT = 'http://localhost:5000/audit';
+  // For production: const API_ENDPOINT = 'https://your-api.railway.app/audit';
+  
+  document.getElementById('audit-form').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const submitBtn = document.getElementById('submit-btn');
+    const messageDiv = document.getElementById('form-message');
+    
+    // Disable button and show loading
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Analyse en cours...';
+    messageDiv.style.display = 'none';
+    
+    // Get form data
+    const formData = {
+      business_name: document.getElementById('business-name').value,
+      url: document.getElementById('url').value,
+      email: document.getElementById('email').value,
+      phone: document.getElementById('phone').value || null
+    };
+    
+    try {
+      // Send to API
+      const response = await fetch(API_ENDPOINT, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData)
+      });
+      
+      const result = await response.json();
+      
+      if (response.ok && result.success) {
+        // Success
+        messageDiv.className = 'success';
+        messageDiv.textContent = `✅ Audit terminé! Score: ${result.audit_result.compliance_score}/100 (${result.audit_result.risk_level}). Vérifiez votre courriel pour le rapport complet.`;
+        messageDiv.style.display = 'block';
+        
+        // Reset form
+        document.getElementById('audit-form').reset();
+        
+        // Optional: Track conversion with analytics
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'audit_submitted', {
+            'business_name': formData.business_name,
+            'compliance_score': result.audit_result.compliance_score,
+            'risk_level': result.audit_result.risk_level
+          });
+        }
+      } else {
+        // Error
+        messageDiv.className = 'error';
+        messageDiv.textContent = `❌ Erreur: ${result.error || 'Une erreur est survenue. Veuillez réessayer.'}`;
+        messageDiv.style.display = 'block';
+      }
+    } catch (error) {
+      // Network error
+      messageDiv.className = 'error';
+      messageDiv.textContent = '❌ Erreur de connexion. Veuillez réessayer dans quelques instants.';
+      messageDiv.style.display = 'block';
+      console.error('Error:', error);
+    } finally {
+      // Re-enable button
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Analyser mon site gratuitement';
+    }
+  });
+</script>

@@ -1,0 +1,47 @@
+Objet : Avis de conformité Loi 96 - Lou's Pointe Claire | Action requise
+
+Bonjour à l'équipe de direction,
+
+Je m'appelle [VOTRE NOM] et je suis consultant en conformité linguistique spécialisé dans la Loi 96 au Québec.
+
+J'ai effectué un audit technique de votre site web louspointeclaire.com dans le cadre de l'initiative "Inspecteur Incognito" de l'OQLF (mars-juin 2026) et j'ai identifié des violations critiques nécessitant une attention immédiate.
+
+**Score de conformité : 0/100 (RISQUE CRITIQUE)**
+
+**Violations principales :**
+- HTML déclaré en anglais (`<html lang="en">`)
+- Absence totale de contenu français sur le site
+- Documents légaux non accessibles en français
+- Aucune option de langue française visible
+
+**Exposition aux amendes :** 30 000 $ par infraction (exposition totale potentielle : 100 000 $+)
+
+**Contexte d'application 2026 :**
+L'OQLF cible actuellement les nouveaux restaurants de l'Ouest-de-l'Île avec des inspections surprises. Lou's, en tant qu'établissement récent dans une zone prioritaire, est à haut risque d'inspection.
+
+**Solution disponible :**
+
+Mon agence spécialisée en remédiation rapide de la Loi 14 peut corriger votre plateforme Wix en moins de 48 heures. Nous reconstruisons l'architecture pour servir automatiquement du contenu français conforme, pour un tarif forfaitaire représentant une fraction de la pénalité minimale de 3 000 $ de l'OQLF.
+
+**Prochaine étape :**
+
+Je peux vous envoyer un rapport d'audit PDF gratuit montrant exactement où votre site échoue actuellement, avec captures d'écran des violations de code et plan de remédiation détaillé.
+
+Veuillez transmettre ce message à Peter Mant, Max Ruiz Laing ou au directeur général responsable de la conformité numérique.
+
+Disponible pour discuter cette semaine.
+
+Cordialement,
+
+[VOTRE NOM]
+[VOTRE ENTREPRISE]
+Spécialiste Loi 96 - Ouest-de-l'Île
+[VOTRE TÉLÉPHONE]
+[VOTRE EMAIL]
+
+---
+
+**INSTRUCTIONS D'ENVOI :**
+- Email principal : gm@louspointeclaire.com
+- Téléphone : 438-596-5517 (suivi si pas de réponse sous 48h)
+- Mentionner les propriétaires par nom pour garantir l'escalade

@@ -1,0 +1,12 @@
+# Bill 96 Compliance Leads
+# Add URLs below (one per line) to trigger automatic audits
+
+# West Island / Pointe-Claire Targets
+https://www.louspointeclaire.com/
+https://www.restomontreal.ca/resto/40-westt-steakhouse-ouest-de-lile-montreal/351/en/
+https://cafemilanowestisland.restaurants-us.com/menu
+https://brasserielemanoirpointeclaire.restaurants-us.com/menu
+
+# Old Montreal / Downtown High-End Targets
+https://www.foodnfashion.tv/home/best-downtown-montreal-restaurants
+https://www.mtlblog.com/montreal-italian-restaurant-il-cortile

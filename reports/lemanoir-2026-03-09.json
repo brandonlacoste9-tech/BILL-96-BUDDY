@@ -1,0 +1,97 @@
+{
+  "url": "https://brasserielemanoirpointeclaire.restaurants-us.com/menu",
+  "business_name": "Brasserie Le Manoir Pointe-Claire",
+  "audit_date": "2026-03-09",
+  "auditor": "Bill 96 Autonomous Compliance Firm",
+  
+  "html_lang": "en-US",
+  "html_lang_compliant": false,
+  "html_lang_score": 0,
+  
+  "visual_predominance": "EXCELLENT BILINGUAL - Menu shows French/English side-by-side throughout. French text appears first in most menu items (e.g., 'Assiette De Crevette / Shrimp Platter'). This demonstrates strong compliance intent, but platform HTML declaration undermines it.",
+  "visual_predominance_compliant": true,
+  "visual_predominance_score": 28,
+  
+  "legal_docs_french": false,
+  "legal_docs_violation": "No Terms of Service, Privacy Policy, or Legal Notice links found on menu page. Critical omission under Bill 96.",
+  "legal_docs_score": 0,
+  
+  "trademark_issues": [
+    "Brasserie Le Manoir - French name is compliant",
+    "restaurants-us.com platform - English domain creates perception issue"
+  ],
+  "trademark_score": 8,
+  
+  "compliance_score": 36,
+  "risk_level": "HIGH",
+  
+  "violations": [
+    "HTML lang attribute set to 'en-US' (English/United States) - 40% penalty",
+    "Platform defaults to English despite excellent bilingual content",
+    "Legal documents not found or not accessible in French",
+    "Third-party US platform creates compliance perception issues"
+  ],
+  
+  "detailed_findings": {
+    "has_bilingual_content": true,
+    "french_content_quality": "Excellent - professional, French appears first",
+    "french_content_percentage": "50% (side-by-side, French first)",
+    "french_predominance_visual": "YES - French text consistently appears before English",
+    "default_language": "English (HTML) - VIOLATION despite content quality",
+    "language_toggle_visible": false,
+    "platform": "restaurants-us.com (third-party, US-based)",
+    "legal_pages_accessible": false,
+    "multiple_locations": true,
+    "locations": ["Lachine", "NDG", "Pointe-Claire"],
+    "positive_aspects": [
+      "French text appears first in menu items",
+      "Professional bilingual translations",
+      "French business name (Brasserie)",
+      "Established Quebec institution (multiple locations)",
+      "Clear understanding of bilingual market"
+    ]
+  },
+  
+  "enforcement_context_2026": {
+    "inspection_season": "March-June 2026 Undercover Inspector Phase",
+    "location_risk": "HIGH - Pointe-Claire location in West Island target zone",
+    "business_type_risk": "MEDIUM - Restaurant/brasserie sector under enforcement",
+    "visibility_risk": "HIGH - Multi-location establishment with strong brand",
+    "platform_risk": "HIGH - US-based platform contradicts excellent content",
+    "fine_potential": "$30,000 per violation x 3 locations = $90,000+ exposure",
+    "urgency": "HIGH - Multi-location brand with platform issues"
+  },
+  
+  "recommendations": [
+    "IMMEDIATE: Fix HTML lang attribute to 'fr-CA' on all location pages",
+    "Migrate to Quebec-based restaurant platform OR build own site",
+    "Add Terms of Service and Privacy Policy in French",
+    "Leverage existing excellent bilingual content on compliant platform",
+    "Ensure all 3 locations have consistent French predominance",
+    "Add language toggle for user preference",
+    "Consider .ca or .qc.ca domain for own website"
+  ],
+  
+  "mitigating_factors": [
+    "Excellent bilingual content with French first",
+    "French business name",
+    "Established Quebec institution",
+    "Clear effort to serve French clientele",
+    "Professional translations throughout"
+  ],
+  
+  "aggravating_factors": [
+    "US-based platform domain (.restaurants-us.com)",
+    "HTML explicitly declares en-US",
+    "Multiple locations = multiple violation points",
+    "High brand visibility in West Island",
+    "No control over platform HTML configuration"
+  ],
+  
+  "estimated_compliance_cost": "$4,000-$7,000 for multi-location website OR platform migration",
+  "estimated_timeline": "2-3 weeks for new multi-location site, 48-72 hours for platform fixes",
+  
+  "priority": "HIGH - Multi-location exposure + excellent content wasted on non-compliant platform",
+  
+  "additional_notes": "This is the BEST case for immediate remediation. Le Manoir has already done the hard work - excellent bilingual content with French predominance. The ONLY issue is the platform's HTML lang declaration. This is a quick win: migrate the existing content to a compliant platform and score jumps to 85-90/100. Multi-location presence means 3x the fine exposure but also 3x the value as a client. Owner fought legal battles in 2014 (per Montreal Gazette), showing they care about their business - they'll understand compliance importance."
+}

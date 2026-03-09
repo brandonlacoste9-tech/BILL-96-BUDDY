@@ -1,0 +1,19 @@
+# Zyeuté Québec - Python Dependencies
+
+# Web Framework
+flask==3.0.0
+
+# Browser Automation
+playwright==1.40.0
+
+# HTTP Requests
+requests==2.31.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# PDF Generation (optional - for future use)
+reportlab==4.0.7
+weasyprint==60.1
+
+# Email (built-in smtplib, no extra package needed)

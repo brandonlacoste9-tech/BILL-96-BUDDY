@@ -1,0 +1,22 @@
+{
+  "url": "https://www.restaurant-toque.com/en",
+  "business_name": "toque",
+  "audit_date": "2026-03-09",
+  "html_lang": "en",
+  "html_lang_compliant": false,
+  "html_lang_score": 0,
+  "visual_predominance": "English predominant or French absent",
+  "visual_predominance_compliant": false,
+  "visual_predominance_score": 0,
+  "legal_docs_french": true,
+  "legal_docs_violation": null,
+  "legal_docs_score": 20,
+  "trademark_issues": [],
+  "trademark_score": 10,
+  "compliance_score": 30,
+  "risk_level": "HIGH",
+  "violations": [
+    "HTML lang attribute set to English",
+    "English content more prominent than French"
+  ]
+}

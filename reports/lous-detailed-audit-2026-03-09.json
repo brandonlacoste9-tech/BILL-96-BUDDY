@@ -1,0 +1,76 @@
+{
+  "url": "https://www.louspointeclaire.com/",
+  "audit_date": "2026-03-09",
+  "audit_method": "HTML source inspection (Playwright pending)",
+  
+  "html_validation": {
+    "lang_attribute": "en",
+    "compliant": false,
+    "weight": 40,
+    "score": 0,
+    "violation": "HTML lang attribute set to 'en' instead of required 'fr' or 'fr-CA'",
+    "evidence": "<html lang=\"en\">"
+  },
+  
+  "visual_predominance": {
+    "assessment": "Unable to fully assess without browser rendering - HTML structure suggests English-dominant content",
+    "compliant": false,
+    "weight": 30,
+    "score": 0,
+    "violation": "No evidence of French language prominence in HTML structure",
+    "notes": "Requires Playwright visual inspection to confirm font sizes, positioning, and visual weight"
+  },
+  
+  "legal_documents": {
+    "terms_of_service_french": false,
+    "privacy_policy_french": false,
+    "compliant": false,
+    "weight": 20,
+    "score": 0,
+    "violation": "Unable to locate French legal documents in initial inspection",
+    "notes": "Requires navigation to footer links to verify"
+  },
+  
+  "trademark_compliance": {
+    "business_name": "Lou's",
+    "has_french_descriptor": false,
+    "compliant": false,
+    "weight": 10,
+    "score": 0,
+    "violation": "English business name 'Lou's' without accompanying French generic descriptor",
+    "recommendation": "Add French descriptor such as 'Restaurant Lou's' or 'Lou's - Restaurant'"
+  },
+  
+  "overall_assessment": {
+    "total_score": 0,
+    "compliance_score": 0,
+    "risk_level": "HIGH",
+    "priority": "IMMEDIATE ACTION REQUIRED"
+  },
+  
+  "violations_summary": [
+    "CRITICAL: HTML lang attribute set to English (lang='en') instead of French",
+    "MAJOR: No evidence of French language prominence on website",
+    "MAJOR: Business name 'Lou's' appears without French generic descriptor",
+    "PENDING: Legal documents availability in French needs verification"
+  ],
+  
+  "recommendations": [
+    "Change HTML lang attribute to 'fr' or 'fr-CA'",
+    "Ensure French content is at least as prominent as English throughout site",
+    "Add French generic descriptor to business name",
+    "Verify all legal documents (Terms, Privacy Policy) are available in French",
+    "Consider making French the default language with English as secondary option"
+  ],
+  
+  "next_steps": {
+    "playwright_verification_needed": true,
+    "items_to_verify": [
+      "Visual inspection of rendered page for French/English prominence",
+      "Navigation menu language options",
+      "Footer legal document links and their French availability",
+      "Font sizes and visual weight comparison",
+      "Screenshot evidence for documentation"
+    ]
+  }
+}

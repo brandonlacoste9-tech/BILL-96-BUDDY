@@ -1,0 +1,140 @@
+ZYEUTÉ QUÉBEC - DEPLOYMENT CHECKLIST
+=====================================
+
+YOUR DISK IS FULL - Use Railway Web Interface (No Git Push Needed)
+
+STEP 1: Get Gmail App Password (5 min)
+---------------------------------------
+1. Go to: https://myaccount.google.com/security
+2. Enable 2-Step Verification
+3. Go to: https://myaccount.google.com/apppasswords
+4. Select "Mail" → "Other (Custom name)"
+5. Name: "Railway API"
+6. Copy 16-char password (remove spaces)
+7. Save it: ________________
+
+STEP 2: Sign Up for Railway (2 min)
+------------------------------------
+1. Go to: https://railway.app/
+2. Click "Login with GitHub"
+3. Authorize Railway
+
+STEP 3: Deploy from GitHub (5 min)
+-----------------------------------
+1. In Railway, click "New Project"
+2. Select "Deploy from GitHub repo"
+3. Choose: BILL-96-BUDDY (or zyeute-quebec)
+4. Click "Deploy Now"
+5. Wait 2-3 minutes for build
+
+STEP 4: Set Environment Variable (1 min)
+-----------------------------------------
+1. Click on your deployed service
+2. Go to "Variables" tab
+3. Click "New Variable"
+4. Key: GMAIL_APP_PASSWORD
+5. Value: [paste your 16-char password]
+6. Click "Add"
+
+STEP 5: Generate Domain (1 min)
+--------------------------------
+1. Click "Settings" tab
+2. Click "Generate Domain"
+3. Copy URL: https://____________.up.railway.app
+4. Save it: ________________
+
+STEP 6: Test API (2 min)
+-------------------------
+1. Open browser
+2. Go to: https://your-url.up.railway.app/health
+3. Should see: {"status": "healthy", "service": "Zyeuté Québec Audit API"}
+
+STEP 7: Update Website Form (3 min)
+------------------------------------
+1. Open zyeutequebec.com editor
+2. Find: const API_ENDPOINT = 
+3. Replace with: const API_ENDPOINT = 'https://your-railway-url.up.railway.app/audit';
+4. Save and publish
+
+STEP 8: Test End-to-End (2 min)
+--------------------------------
+1. Visit www.zyeutequebec.com
+2. Fill form with test data
+3. Submit
+4. Check email for audit report
+
+STEP 9: Go Live! (0 min)
+-------------------------
+✅ Share on LinkedIn
+✅ Email 10 restaurant owners
+✅ Run Google Ads
+✅ Monitor leads in Railway logs
+
+TARGET: 5 clients in 30 days = $20K revenue
+
+=====================================
+
+IMPORTANT FILES ON YOUR SYSTEM:
+- auto_audit_api.py (main API)
+- gmail_automation.py (email sender)
+- requirements.txt (dependencies)
+- Procfile (Railway config)
+- website_form_integration.html (form code)
+
+RAILWAY WILL AUTOMATICALLY:
+✅ Install Python dependencies
+✅ Install Playwright + Chromium
+✅ Start Flask API
+✅ Run 24/7 with auto-restart
+✅ Provide HTTPS domain
+✅ Scale automatically
+
+COST: $5/month credit (free tier)
+
+=====================================
+
+TROUBLESHOOTING:
+
+If Railway build fails:
+- Check requirements.txt exists
+- Check Procfile exists
+- View deployment logs in Railway
+
+If emails don't send:
+- Verify GMAIL_APP_PASSWORD is correct
+- Check 2FA enabled on Gmail
+- Generate new App Password
+
+If form doesn't work:
+- Check API_ENDPOINT URL
+- Test /health endpoint first
+- Check browser console for errors
+
+=====================================
+
+NEXT STEPS AFTER DEPLOYMENT:
+
+Week 1:
+- Monitor Railway logs
+- Track leads in outreach_log.json
+- Reply to "YES" responses
+- Book consultations
+
+Week 2:
+- Add PDF report generation
+- Implement follow-up sequences
+- Build CRM dashboard
+
+Month 2:
+- Scale to 100+ audits/day
+- Hire VA for calls
+- Expand to other provinces
+
+=====================================
+
+YOU'VE GOT THIS! 🚀
+
+Questions? Check:
+- DEPLOY_WITHOUT_CLI.md
+- DEPLOYMENT_GUIDE.md
+- GMAIL_SETUP.md

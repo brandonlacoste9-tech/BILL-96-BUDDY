@@ -4,14 +4,19 @@ Zyeuté Québec - Automated Bill 96 Audit API
 Receives form submissions and runs full audit pipeline
 """
 
-from flask import Flask, request, jsonify\nfrom flask_cors import CORS
+from flask import Flask, request, jsonify
+from flask_cors import CORS
 from playwright.sync_api import sync_playwright
 import json
 from datetime import date, datetime
 import os
 from sendgrid_automation import send_audit_email
 
-app = Flask(__name__)\nCORS(app)\nos.makedirs(\"reports\", exist_ok=True)
+app = Flask(__name__)
+CORS(app)
+
+# Create reports directory if it doesn't exist
+os.makedirs("reports", exist_ok=True)
 
 def audit_site(url, business_name):
     """Run complete Bill 96 audit on a site"""
@@ -273,4 +278,3 @@ if __name__ == "__main__":
     print("=" * 70)
     
     app.run(debug=True, host='0.0.0.0', port=5000)
-
